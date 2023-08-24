@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use std::io::Cursor;
 use rand::{thread_rng, Rng};
 use rodio::Sink;
